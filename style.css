@@ -1,0 +1,57 @@
+/* font-family: 'Londrina Solid', cursive; */
+
+i {
+    font-size: 50px;
+    margin: 10px;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: thistle;
+}
+main h2 {
+    font-size: 1.58rem;
+}
+
+main .btn:hover {
+    background-color: black;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .first_box {
+        margin: 20px;
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .first_box {
+        margin: 20px;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 200px) {
+    .first_box {
+        margin: 20px;
+        width: 100px;
+    }
+}
+
+/* about.html */
+
+.heading {
+    font-size: 70px;
+    color: rgb(90, 83, 83);
+}
+
+.abhead {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 370px) {
+    .heading {
+        font-size: 50px;
+    }
+}
